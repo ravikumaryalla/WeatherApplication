@@ -1,0 +1,44 @@
+.wetherBg {
+  background: black;
+  min-height: 100vh; /* Ensures it takes full height */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.wetherResultBox {
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.weathorIcon {
+  margin-top: 1rem;
+  width: 100px;
+  height: 100px;
+}
+
+.weathorCity {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.weathorTemp {
+  font-size: 55px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.whitefont {
+  color: whitesmoke;
+}
